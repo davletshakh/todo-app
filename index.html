@@ -6,14 +6,23 @@
         <h1>todoapp</h1>
         <input id="task-name" name="task-name"/>
         <button id="add-button"> add task</button>
+
+        <div id="list"></div>
+
         <script>
-          document.addEventListener('DOMContentLoaded', function(event){
-              const input = document.getElementById('task-name')
-              const button = document.getElementById('add-button')
-              button.addEventListener('click', function(e){
-                input.value = 'Hello world'
-              })
-          })  
+            const taskList = [] 
+            const input = document.getElementById('task-name')
+            const button = document.getElementById('add-button')
+            
+            const renderTaskList = () => {
+                const listHtml = taskList.map(task => '<div>' + task + '</div>').join('');
+                document.getElementById('list').innerHTML = listHtml
+            }
+            
+            button.addEventListener('click', function(e){
+                taskList.push(input.value)
+                renderTaskList()
+            }) 
         </script>
     </body>
 </html>
