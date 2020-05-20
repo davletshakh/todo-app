@@ -9,17 +9,21 @@ function slider(selector) {
   .append('<div class="slider_dots"></div>')
   .append('<a href="#" class="slider_arrow slider_arrow_right"></a>');
 
-  let slides = slider.children ('.slider_slides');
-  let dots = slider.children('.slider-dots');
+  let slides = slider.children('.slider_slides');
+  let dots = slider.children('.slider_dots');
 
   imgs
   .prependTo(slides)
-  .each(function (i){
+  .each(function (i) {
       if (i) {
-          dots.append('<ahref= "#" class="slider_dot slider_dot_active"></a>');
+          dots.append('<a href= "#" class="slider_dot slider_dot_active"></a>');
 
       }else{
-          dots.append('<ahref= "#" class="slider_dot">');
+          dots.append('<a href= "#" class="slider_dot">');
       }
   });
+  .addClass('slider_slide')
+  .eq(0);
+  .addClass('slider_slide_active');
 }
+slider('#slider');
