@@ -3,19 +3,112 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sugar.css">
   <title>Cайт сахара</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 <body>
   <h1>Сахарный сайт</h1>
   <header>Виды C<sub>21</sub>H<sub>22</sub>O<sub>11</sub></header>
-    <div id="slider">
-    <img src="images/1.jpg" width="100" alt="Рафинад-очищенный сахар в кусках, изготовленный из сахарного песка">
+    <div class="product-slider">
+      <button class="control control-left" id="left-click"><--</button>
+      <button class="control control-right" id="right-click">--></button>
+
+      <div class="product-list" id="slider">
+        <div class="product" id="product-0">
+          <div class="product__image">
+            <img src="images/1.jpg" alt="Рафинад-очищенный сахар в кусках, изготовленный из сахарного песка">
+          </div>
+          <h5 class="product__title">
+            Сахар обыкновенный 1
+          </h5>
+          <p class="product__price">
+            500 Рублей
+          </p>
+        </div>
+  
+        <div class="product product_red" id="product-1">
+          <div class="product__image">
+            <img src="images/1.jpg" alt="Рафинад-очищенный сахар в кусках, изготовленный из сахарного песка">
+          </div>
+          <h5 class="product__title">
+            Кенгуриный сахар
+          </h5>
+          <p class="product__price">
+            3500 Рублей
+          </p>
+        </div>
+  
+        <div class="product product_blue" id="product-2">
+          <div class="product__image">
+            <img src="images/1.jpg" alt="Рафинад-очищенный сахар в кусках, изготовленный из сахарного песка">
+          </div>
+          <h5 class="product__title">
+            Сахар обыкновенный 2
+          </h5>
+          <p class="product__price">
+            1500 Рублей
+          </p>
+        </div>
+  
+        <div class="product" id="product-3">
+          <div class="product__image">
+            <img src="images/1.jpg" alt="Рафинад-очищенный сахар в кусках, изготовленный из сахарного песка">
+          </div>
+          <h5 class="product__title">
+            Сахар обыкновенный 3
+          </h5>
+          <p class="product__price">
+            2500 Рублей
+          </p>
+        </div>
+  
+        <div class="product product_blue" id="product-4">
+          <div class="product__image">
+            <img src="images/1.jpg" alt="Рафинад-очищенный сахар в кусках, изготовленный из сахарного песка">
+          </div>
+          <h5 class="product__title">
+            Соленый сахар
+          </h5>
+          <p class="product__price">
+            3500 Рублей
+          </p>
+        </div>
+  
+        <div class="product product_red" id="product-5">
+          <div class="product__image">
+            <img src="images/1.jpg" alt="Рафинад-очищенный сахар в кусках, изготовленный из сахарного песка">
+          </div>
+          <h5 class="product__title">
+            Просто сахар
+          </h5>
+          <p class="product__price">
+            4500 Рублей
+          </p>
+        </div>
+  
+        <div class="product product_red" id="product-6">
+          <div class="product__image">
+            <img src="images/1.jpg" alt="Рафинад-очищенный сахар в кусках, изготовленный из сахарного песка">
+          </div>
+          <h5 class="product__title">
+            Пальмовый сахар
+          </h5>
+          <p class="product__price">
+            5500 Рублей
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="slider">
+    
     <img src="images/2.jpg" width="100" alt="Рассыпной сахар-Кристаллизованная сахароза, пищевой продукт получаемый из свеклы">
     <img src="images/3.jpg" width="100" alt="Тростниковый сахар-сахар, который получают из тростника">
     <img src="images/4.jpg" width="100" alt="Коричневый сахар-рафинированный (тростниковый или свекольный) сахар, окрашенный мелассой">
-    </div>
+    </div> -->
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="sugar.js"></script>
   <footer>Вот и сказочке конец</footer>
+  <script></script>
 </body>
 </html>
