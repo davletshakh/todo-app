@@ -4,15 +4,16 @@ const buttonLeft = document.getElementById('left-click');
 const slider = document.getElementById('slider');
 
 let leftProductId = 0;
-const maxItemPerViewport = 3;
 
 buttonRight.addEventListener('click', () => {
+    //  debugger;
     leftProductId++;
     const leftElemWidth = document.getElementById(`product-${leftProductId}`).offsetWidth;
+    const offsetLeft = (leftElemWidth + 30) * leftProductId;
     slider.scrollTo({
         top: 0,
-        left: (leftElemWidth + 30) * leftProductId,
-        // behavior: 'smooth'
+        left: offsetLeft,
+        behavior: 'smooth'
     });
 });
 
@@ -23,7 +24,7 @@ buttonLeft.addEventListener('click', () => {
         slider.scrollTo({
             top: 0,
             left: (leftElemWidth + 30) * leftProductId,
-            // behavior: 'smooth'
+            behavior: 'smooth'
         });
     }
 });

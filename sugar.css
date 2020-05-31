@@ -59,7 +59,7 @@ body {
     border-color: #1c75e2;
     color: #1c75e2;
 }
-.product_green{
+.product_green {
     border-color: rgb(8, 189, 159);
     color: rgb(8, 189, 159);
 }
@@ -73,16 +73,10 @@ body {
 }
 
 .product__description {
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0 0 20px;
-}
-
-.product_d{
     font-size: 25px;
-    line-height: 40px;
     line-height: 1;
 }
+
 @media screen and (max-width: 1200px) {
     .product-slider {
         width: 690px;
