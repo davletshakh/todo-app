@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+.product-slider {
+    position: relative;
+    width: 990px;
+    margin: 0 auto;
+}
+.control {
+    position: absolute;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 5px;
+}
+.control:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
+.control-left {
+    top: 50%;
+    left: 0;
+    transform: translateX(-100%);
+}
+.control-right {
+    top: 50%;
+    right: 0;
+    transform: translateX(100%);
+}
+
+.product-list {
+    margin: 30px auto;
+    display: flex;
+    overflow-x: hidden;
+    width: 960px;
+}
+.product {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 15px;
+    /* margin-bottom: 30px; */
+    flex: 0 0 25%;
+}
+.product-list::after {
+    content: "";
+    flex: 0 0 30px;
+}
+
+.product_red {
+    border-color: red;
+    color: red;
+}
+.product_blue {
+    border-color: #1c75e2;
+    color: #1c75e2;
+}
+.product_green {
+    border-color: rgb(8, 189, 159);
+    color: rgb(8, 189, 159);
+}
+.product__image img {
+    max-width: 100%;
+}
+.product__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 0 10px;
+}
+
+.product__description {
+    font-size: 25px;
+    line-height: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    .product-slider {
+        width: 690px;
+    }
+    .product-list {
+        width: 690px
+    }
+
+    .product {
+        min-width: 260px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .product-slider {
+        width: 640px;
+    }
+    .product-list {
+        width: 597px
+    }
+
+    .product {
+        min-width: 220px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .product-slider {
+        width: 100%;
+    }
+    .control-left {
+        transform: none;
+    }
+    .control-right {
+        transform: none;
+    }
+    .product-list {
+        width: 300px
+    }
+
+    .product {
+        min-width: 215px;
+    }
+}
+
