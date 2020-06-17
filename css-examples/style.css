@@ -1,0 +1,21 @@
+#blue-circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+}
+#red-circle {
+    width: 150px;
+    height: 200px;
+    border: 3px solid red;
+}
+#yellow-circle {
+    width: 50px;
+    height: 70px;
+    border: 2px solid yellow;
+}
+
+.parent-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
