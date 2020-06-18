@@ -1,18 +1,25 @@
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
 #blue-circle {
-    width: 100px;
-    height: 100px;
-    border: 1px solid blue;
+    position: absolute;
+    width: 1117px;
+    height: 840px;
+    left: 0px;
+    top: 0px;
+
+    background: #F4F9E2;
 }
-#red-circle {
-    width: 150px;
-    height: 200px;
-    border: 3px solid red;
+#header {
+    position: absolute;
+    width: 484px;
+    height: 150px;
+    left: 179px;
+    top: 27px;  
 }
-#yellow-circle {
-    width: 50px;
-    height: 70px;
-    border: 2px solid yellow;
-}
+
+
 
 .parent-container {
     display: flex;
