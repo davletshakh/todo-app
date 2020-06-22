@@ -1,28 +1,51 @@
-.wrapper {
-    max-width: 1060px;
-    margin: 0 auto;
+
+
+#about {
+    justify-content: flex-end;
+    left: 50px;
 }
 #blue-circle {
     position: absolute;
     width: 1117px;
     height: 840px;
     left: 0px;
-    top: 0px;
-
-    background: #F4F9E2;
+    top: 0px; 
 }
 #header {
     position: absolute;
     width: 484px;
     height: 150px;
     left: 179px;
-    top: 27px;  
+    top: 27px; 
 }
 
+#helpingyou {position: absolute;
+width: 484px;
+height: 167px;
+left: 179px;
+top: 305px;
 
+font-family: Larsseit;
+font-size: 48px;
+line-height: 53px;
+letter-spacing: -0.035em;
+
+color: #22356F;
+}
 
 .parent-container {
     display: flex;
     align-items: center;
     justify-content: center;
+} 
+.body {
+    justify-content: center;
+    align-items: center;
 }
+
+    
+}
+/* .wrapper {
+    max-width: 1060px;
+    margin: 0 auto; 
+} */
