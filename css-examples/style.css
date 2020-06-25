@@ -65,18 +65,15 @@ background-color: #F4F9E2;
 }
 
 .parent-container {
-display: flex;
-align-items: center;
-justify-content: center;
-background-color:#F4F9E2; */
-}  
-.body {
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    background-color:#F4F9E2;
+}  
+body {
+    background-color: #F4F9E2;
 }
 
-    
-}
 /* .wrapper {
     max-width: 1060px;
     margin: 0 auto; 
