@@ -1,3 +1,10 @@
+.photo {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 525px;
+	height: 604px;
+}
 .phrasetwo {
 	width: 555px;
 	height: 235px;
@@ -28,7 +35,7 @@ body {
 	width: 1437px;
 	height: 607px;
 	left: 1px;
-	top: 842px;
+	/* top: 842px; */
 
 	background: #62d0df;
 }
