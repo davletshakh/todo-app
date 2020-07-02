@@ -1,41 +1,114 @@
-.photo {
+.bluesquare {
 	position: absolute;
+	width: 360px;
+	height: 360px;
+	left: 1078px;
 	right: 0px;
-	top: 0px;
-	width: 525px;
-	height: 604px;
-}
-.phrasetwo {
-	width: 555px;
-	height: 235px;
 
-	margin-left: 178px;
+	background: #0052c1;
+}
+.azuresquare {
+	position: absolute;
+	right: 360px;
+	width: 360px;
+	height: 360px;
+	left: 720px;
+
+	background: #62d0df;
+}
+.greensquare {
+	position: absolute;
+	right: 720px;
+	width: 360px;
+	height: 360px;
+	left: 360px;
+
+	background: #c4e769;
+}
+.one {
+	width: 232px;
+	height: 54px;
+	left: 78px;
+	top: 2022px;
 
 	font-family: Larsseit;
-	font-size: 24px;
-	line-height: 35px;
-
-	color: #ffffff;
-}
-.phraseone {
-	width: 223px;
-	height: 51px;
-
-	margin-top: 151px;
-	margin-left: 178px;
-	margin-bottom: 75px;
-
-	font-family: Larsseit;
-	font-size: 36px;
-	line-height: 27px;
+	font-size: 32px;
+	line-height: 34px;
 	letter-spacing: -0.006em;
 
 	color: #ffffff;
 }
-body {
-	width: 1437px;
-	height: 607px;
-	left: 1px;
+.pinksquare {
+	position: absolute;
+	width: 360px;
+	height: 360px;
+	left: 0px;
 
-	background: #62d0df;
+	background: #ffe2de;
+
+	font-family: Larsseit;
+	font-size: 32px;
+	line-height: 34px;
+	letter-spacing: -0.006em;
+	justify-content: center;
+
+	color: #ffffff;
+}
+.phrasethree {
+	position: relative;
+	width: 201px;
+	height: 21px;
+	left: 620px;
+	margin-top: 406px;
+	margin-bottom: 30px;
+	/* top: 1882px; */
+
+	font-family: Larsseit;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: rgba(34, 53, 111, 0.5);
+}
+.phrasetwo {
+	position: absolute;
+	width: 592px;
+	height: 210px;
+	left: 424px;
+	/* top: 1596px; */
+	margin-top: 150px;
+	margin-right: 424px;
+
+	font-family: Larsseit;
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.005em;
+
+	color: #22356f;
+}
+.phraseone {
+	position: absolute;
+	width: 93px;
+	height: 210px;
+	left: 106px;
+	/* top: 1602px; */
+	margin-top: 156px;
+	margin-left: 106px;
+	margin-right: 225px;
+
+	font-family: Larsseit;
+	font-size: 16px;
+	line-height: 23px;
+	letter-spacing: 0.06em;
+
+	color: #22356f;
+}
+body {
+	display: inline;
+	width: 1440px;
+	height: 361px;
+	left: 0px;
+	/* top: 1446px; */
+
+	background: #ffffff;
 }
